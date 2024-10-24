@@ -4,7 +4,6 @@ from prediction import predict_score
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-
 def plot_prediction(predicted_score, current_runs, total_balls):
     # Create a new figure
     fig, ax = plt.subplots(figsize=(6, 4))
